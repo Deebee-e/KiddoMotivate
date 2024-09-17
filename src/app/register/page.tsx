@@ -9,6 +9,16 @@ export default function Register() {
         <h2 className="text-2xl font-semibold text-center mb-6">Sign Up</h2>
         <form className="flex flex-col gap-4">
           <div>
+            <Label htmlFor="username" value="Username" className="mb-1 text-sm font-medium" />
+            <TextInput
+              id="username"
+              type="text"
+              placeholder="Choose a username"
+              required
+              className="w-full p-2 rounded-lg border border-gray-300 focus:ring focus:ring-indigo-300"
+            />
+          </div>
+          <div>
             <Label htmlFor="email1" value="Email Address" className="mb-1 text-sm font-medium" />
             <TextInput
               id="email1"
@@ -23,6 +33,7 @@ export default function Register() {
             <TextInput
               id="password1"
               type="password"
+              placeholder="Create a password"
               required
               className="w-full p-2 rounded-lg border border-gray-300 focus:ring focus:ring-indigo-300"
             />
