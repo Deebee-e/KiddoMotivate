@@ -13,10 +13,12 @@ export default function NavBar() {
 
         </div>
         <div>
-          <Link href="/">
+          <Link href="/register">
             <button className="px-4 py-2  text-white rounded-md hover:bg-zinc-80 hover:text-black">
               Sign Up
             </button>
+          </Link>
+          <Link href="/login">
             <button className="px-4 py-2  text-white rounded-md hover:bg-zinc-80 hover:text-black">
               Login
             </button>
