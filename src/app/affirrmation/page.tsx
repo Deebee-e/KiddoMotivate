@@ -7,11 +7,23 @@ export default function Affirmation() {
   // Array of custom affirmations
   const affirmations = [
     "I am capable of achieving my goals.",
-    "Every day is a new opportunity to grow.",
     "I am confident in my abilities.",
     "I am worthy of happiness and success.",
-    "Challenges help me grow stronger.",
-    "I embrace change and welcome new beginnings."
+    "I believe in myself, I am capable of amazing things.",
+    "I embrace change and welcome new beginnings.",
+    "I am Unique and Special, Not like anyone else.",
+    "I am inferior to No one,  I know who I am.",
+    "I am a Star, NO One can dull my sparkle.",
+    "I am worthy of love and I am loved ",
+    "I am not timid. I am bold and full of energy.",
+    "I am capable of making a lot of difference in the world",
+    "I am a burst of fine flavours. I spread good energy everywhere I go.",
+    "I excel in everything I put my mind to.",
+    "I believe in my myself, My dreams are valid. My dreams will come through!",
+    "I Know that everyday may not be good but 'I am a good thing' everyday",
+    "I am braver than I Believe, I am Stronger than I seem and Smarter than I think",
+    "I carry something great inside of me, The world is waiting for ‘me to happen’",
+    "I am amazing, I am beautiful, I am God’s child, The Apple of His eyes.",
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
