@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This Project 'KiddoMotivate' was built as My Portfolio project for the ALX software engineering foundations.
 
-## Getting Started
+KiddoMotivate is a web app built to provide daily affirmations, quotes and proverbs for African children between the ages of 3-14
 
-First, run the development server:
+Technology: 
+- Frontend:
+The frontend was built using Next.js a React framework for building user interfaces.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+-Backend:
+FastAPI; Python-based framework for building high-performance APIs.
+
+Database:
+PostgreSQL; Relational database for storing user data and affirmations.
+
+- Deployment:
+Vercel: Hosting and deployment platform for the frontend.
+
+
+Installations
+Node.js and npm/yarn installed
+Python and pip installed
+PostgreSQL database set up.
+Ionicons: Icon library for adding visually appealing icons.
+Formik: Library for building and managing forms with ease.
+Swiper: Carousel library used for displaying daily affirmations in an interactive manner.
+DaisyUI
+
+
+
+
+```
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
